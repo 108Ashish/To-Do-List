@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=" UTF-8">
+        <title>To-Do list</title>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="todolist.css">
+    </head>
+    <body>
+        <div class ="container">
+            <div class="addTask">
+                <input type="text" placeholder="Add a Task">
+                <button>Add</button>
+            </div>
+            <ol class="notcompleted">
+                <h3>Not Completed</h3>
+                <li>
+                  
+                    <button><i class="fa fa-check"></i></button>
+                    <button><i class="fa fa-trash"></i></button>
+                </li>
+            </ol>
+            
+            <ol class="completed">
+                <h3>Completed</h3>
+                <li>
+                   
+                    
+                    <button><i class="fa fa-trash"></i></button>
+                </li>
+            </ol>
+        </div>
+        <script type="text/javascript" src="todolist.js">
+            
+        </script>
+
+
+    </body>
+</html>
